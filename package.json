@@ -1,0 +1,32 @@
+{
+  "name": "sania",
+  "version": "1.0.0",
+  "description": "Sania's Website",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uzairali19/sania.git"
+  },
+  "author": "Uzair Ali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uzairali19/sania/issues"
+  },
+  "homepage": "https://github.com/uzairali19/sania#readme",
+  "dependencies": {
+    "node_module": "0.0.0"
+  },
+  "devDependencies": {
+    "bootstrap": "^4.5.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "jquery.js": "0.0.2-security",
+    "lite-server": "^2.5.4",
+    "popper.js": "^1.16.1"
+  }
+}
