@@ -6,7 +6,8 @@
   "scripts": {
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "lite-server"
+    "lite": "lite-server",
+    "scss": "node-sass -o css/ css/"
   },
   "repository": {
     "type": "git",
@@ -23,10 +24,15 @@
   },
   "devDependencies": {
     "bootstrap": "^4.5.0",
+    "browser-sync": "^2.23.6",
     "font-awesome": "^4.7.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
     "jquery": "^3.5.1",
     "jquery.js": "0.0.2-security",
     "lite-server": "^2.5.4",
-    "popper.js": "^1.16.1"
+    "node-sass": "^4.14.1",
+    "popper.js": "^1.16.1",
+    "sass": "^1.26.8"
   }
 }
