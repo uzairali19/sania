@@ -1,0 +1,171 @@
+// Navbar Styles
+.top-center-list {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.navbar-dark .navbar-brand {
+  color: #fff;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.nav-list a {
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+// Navber styles end
+// Carousel Styles start
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.carousel-item img {
+  filter: brightness(70%);
+}
+
+.carousel-caption {
+  bottom: 270px;
+  h5 {
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  p {
+    width: 75%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+  }
+}
+// carousel styles end
+// connect sections starts
+.connect {
+  margin: 30px 0px 30px 0px;
+}
+.img {
+  width: 350px;
+  height: 200px;
+
+  border: 1px solid black;
+  outline: 1px solid rgb(221, 95, 95);
+  outline-offset: -20px;
+  padding: 70px 90px;
+  margin: 40px;
+}
+.img:hover {
+  background-color: silver;
+}
+.img div {
+  font-size: 14px;
+  padding: 12px 12px;
+  width: 100px;
+  height: 50px;
+  background-color: rgb(233, 233, 233);
+}
+// connect section ends
+
+// footer section starts
+// Instagram Section
+.footer-section {
+  margin-bottom: 0px;
+}
+.footer-section p {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.footer-section a {
+  font-size: 40px;
+  color: black;
+  letter-spacing: 4px;
+  text-decoration: none;
+  a:hover {
+    color: rgb(54, 54, 54);
+  }
+}
+.footer-section h1 {
+  font-size: 40px;
+  padding-right: 10px;
+}
+// Instagram Section ends
+// Images section starts
+.sliding-images img {
+  width: 180px;
+  height: 180px;
+}
+// Images section ends
+// footer section starts
+.footer-area {
+  background-color: black;
+  margin-bottom: 0;
+}
+.footer-logo {
+  color: white;
+  width: 100%;
+  height: 197px;
+  text-align: center;
+  padding: 60px 0px 50px;
+}
+.footer-copy {
+  margin-top: 0;
+  width: 100%;
+  height: 87px;
+  padding: 10px 30px 40px;
+}
+.copyright {
+  font-size: 12px;
+  font-weight: lighter;
+  color: rgb(173, 173, 173);
+  text-align: left;
+}
+.footer-links {
+  margin: 0px auto 0px;
+  text-align: center;
+
+  li {
+    display: inline-block;
+  }
+  a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+  }
+  a:hover {
+    color: #f78a74;
+  }
+  span {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+.footer-social {
+  display: inline;
+  text-align: right;
+  li {
+    display: inline-block;
+  }
+  a {
+    color: #fff;
+    font-size: 20px;
+    padding-left: 20px;
+  }
+}
+
+// footer section ends
